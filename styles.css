@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  max-width: 992px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 36% 64%;
+  background-color: #282828;
+  overflow-wrap: break-word;
+}
+.nav_lateral {
+  margin: 0 auto;
+  background-color: #002726;
+  color: #fff;
+  padding: 20px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.foto {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+h2.nome {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
+h3.info {
+  margin-top: 0;
+  text-align: center;
+}
+.mais_infos ul {
+  list-style: none;
+  padding: 0;
+}
+ul.lista_link,
+ul.compet {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+ul.lista_link i {
+  margin: 5px;
+}
+.dados img {
+  border-radius: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+.main {
+  width: 100%;
+  background-color: #fff;
+}
+
+.coluna_direita {
+  background-color: #fff;
+  text-align: justify;
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.titulo_sublinhado {
+  text-decoration: underline;
+  margin-top: 40px;
+}
+.dot_competencias {
+  display: flex;
+}
+.compet i {
+  font-size: 10px;
+  align-items: center;
+  margin: 0 1px;
+}
+.coluna_direita .titulo_sublinhado {
+  color: #002726;
+  margin-bottom: 0;
+}
+.exp_trab h3 {
+  margin-bottom: 0;
+}
+.exp_trab p {
+  margin: 0;
+}
+.exp_trab strong {
+  color: #282828;
+}
+
+footer {
+  background-color: #e2e2e2;
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #282828;
+  padding: 5px 0;
+  font-size: 0.8rem;
+}
